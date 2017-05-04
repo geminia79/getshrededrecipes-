@@ -1,0 +1,25 @@
+Integration testing...
+
+ we build the test 1st before functionability
+
+ rails create integration_test
+
+ 1. test/integration/pages_test.rb
+ 2. test/integration/pages_test.rb
+ 3. config/routes.rb
+ 4. create pages_controller.rb
+ 5. create pages folder and home.html.erb
+ 6. go to gem file install bootstrap , run bundle install
+ 7. go to application.js n paste //= require bootstrap-sprockets
+ 8. create custom.css.scss at app/assets/stylesheets n paste
+      @import "bootstrap-sprockets";
+      @import "bootstrap"
+9. paste <%= render 'layouts/navigation' %> at application.html.erb  , to create navbar at all pages/
+10. create _navigation.html.erb  , go to  http://getbootstrap.com/components/#navbar copy n paste
+11. go to home.html.erb , n paste <div class="jumbotron center">  https://v4-alpha.getbootstrap.com/components/jumbotron/,
+  you can explore further, very interesting  http://getbootstrap.com/components/
+jumbotron is the pre-created templates from bootstrap-sprockets,
+12. copy from view-source:http://getbootstrap.com/examples/justified-nav/, take from example row of columns
+copy and paste at home.html.erb , add btn-xlarge next to btn btn-primary,
+
+13. 
